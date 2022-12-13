@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <header>
+        <h1> Creación  de arquitectura </h1>
+    </header>
+    <article>
+        <section>
+          <h2> <a>Cree una nueva definición de arquitectura</a></h2>  
+          <form action="/my-handling-form-page" method="post">
+            <ul>
+                <li>
+                  <h1> Datos Basicos</h1>
+                    <table>
+                        <tr>
+                            <th>Nombre del proyecto</th>
+                            <th> <input type="text" id="project_name" name="project_name"> </th>
+                         </tr>
+
+                        <tr>
+                           <th>Fecha de creación</th>
+                           <th><input type="date" id="fechaCreacion" name="fechaCreacion"></th>
+                        </tr>
+                        <tr>
+                            <th>Product Owner</th>
+                            <th> <input type="PO" id="PO" name="PO"> </th>
+                           
+                        </tr>
+                        <tr>
+                            <th>Objetivo de proyecto</th>
+                            <th> <textarea id="objetivo" name="objetivo"></textarea> </th>
+                           
+                        </tr>
+                         <tr>
+                            <th><a href="Drivers.xlsx" download>Diligencie los Driver de arquitectura principales</a></th>
+                           
+                         </tr>
+                       
+                        <tr>
+                            <th>  <input type="submit" value="Continuar(Registrar Precios) -> "> </th>
+                        </tr>
+ 
+                    </table>
+
+                  
+                </li>
+
+                <li>
+                    <h1> Selección de patrón de arquitectura </h1>
+                    <p>A continuación seleccione el patrón de referencia que más se ajuste:</p>
+                   
+                   <table>     
+                    <tr>
+                        <th>
+                        <input type="radio" id="sinPatron" name="fav_language" value="SinPatron">
+                        <label for="SinPatron">Sin patrón definido</label>
+                        </th>
+                     </tr>
+                    
+                    <tr>
+                        <th>
+                        <input type="radio" id="serverless" name="fav_language" value="aplicationServerless">
+                        <label for="serverless">Aplicación web Serverless</label><br>
+                        </th>
+                        <th> <img src="Aplication%20Web.PNG" > </th>
+                     </tr>
+                     <tr>
+                        <th>
+                            <input type="radio" id="backAsAService" name="fav_language" value="backAsAService">
+                              <label for="backAsAService">Backend as a service</label><br>
+                        </th>
+                        <th> <img src="BackendAsService.PNG" > </th>
+                     </tr>
+                     <tr>
+                        <th>
+                            <input type="radio" id="microservicios" name="fav_language" value="microservicios">
+                             <label for="microservicios">Basado en microservicios</label>
+           
+                        </th>
+                        <th> <img src="Microservicios.PNG" > </th>
+                     </tr>
+                     <tr>
+                        <th>
+                            <input type="radio" id="IntegracionRedes" name="fav_language" value="IntegracionRedes">
+                             <label for="IntegracionRedes">Integracion por capa  3 de redes</label>
+                         </th>
+                        <th> <img src="IntegracionRedes.drawio.PNG" > </th>
+                     </tr>
+                     <tr>
+                        <th>
+                            <input type="radio" id="Flowable" name="fav_language" value="Flowable">
+                             <label for="Flowable">Uso de procesos con Flowable</label>
+                         </th>
+                        <th> <img src="Flowable.drawio.PNG" > </th>
+                     </tr>
+                     <tr>
+                        <th>
+                            <input type="radio" id="mvc" name="fav_language" value="mvc">
+                             <label for="mvc">MVC</label>
+                         </th>
+                        <th> <img src="MVC.drawio.PNG" > </th>
+                     </tr>
+
+                   </table>
+               
+               
+                </li>
+                
+
+              </ul>
+              <input type="submit" value="Continuar(Registrar Precios) -> ">
+          </form> 
+
+
+        </section>
+           
+    </article>
+
+</body>
+</html>
